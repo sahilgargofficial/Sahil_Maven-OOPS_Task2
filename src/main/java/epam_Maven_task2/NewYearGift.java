@@ -8,11 +8,11 @@ import Sweets.chocolates;
 
 public class NewYearGift {
     public static void main(String[] args) {
-        Sweet silk = new chocolates(8, "Silk", 60, 120, "milk");
+        Sweet silk = new chocolates(8, "Silk", 60, 120, "dry_Fruit");
         Sweet dairyMilk = new chocolates(8, "Dairy Milk", 60, 120, "milk");
-        Sweet truffle = new cake(3, "Truffle", 250, 300, "chocolate");
-        Sweet candy_man = new candy(4, "Filo", 10, 2, "mango");
-        Sweet melody = new candy(5, "melody", 12, 5, "chocolate");
+        Sweet truffle = new cake(3, "Truffle", 250, 300, "strawberry");
+        Sweet candy_man = new candy(4, "Filo", 10, 2, "guava");
+        Sweet melody = new candy(5, "Melody", 12, 5, "chocolate");
 
         Gift gift = new Gift();
         gift.add(silk);
